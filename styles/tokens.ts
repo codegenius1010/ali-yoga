@@ -39,7 +39,7 @@ export const colors = {
 export const typography = {
   // Font families
   headings: 'Merriweather, Georgia, serif',
-  body: 'Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif',
+  bodyFont: 'Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif',
 
   // Heading styles
   h1: {
