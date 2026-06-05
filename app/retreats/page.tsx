@@ -50,7 +50,6 @@ export const metadata: Metadata = {
     description:
       'Join us for immersive yoga retreats combining deep practice, nature, and authentic community.',
   },
-  canonical: 'https://aliyoga.com/retreats',
 };
 
 // Breadcrumb schema for JSON-LD

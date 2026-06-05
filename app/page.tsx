@@ -52,7 +52,6 @@ export const metadata: Metadata = {
       'Private yoga coaching, golf-focused mobility, retreats, and online practices designed for you.',
     images: ['https://aliyoga.com/og-image.jpg'],
   },
-  canonical: 'https://aliyoga.com',
 };
 
 // Mock blog posts for preview

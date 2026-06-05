@@ -48,7 +48,6 @@ export const metadata: Metadata = {
     description:
       'Online yoga courses taught by Ali. Yoga for golfers, breathwork, mobility, and more. Learn at your own pace.',
   },
-  canonical: 'https://aliyoga.com/online-courses',
 };
 
 // Breadcrumb schema for JSON-LD

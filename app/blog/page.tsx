@@ -44,7 +44,6 @@ export const metadata: Metadata = {
     description:
       'Read expert articles about yoga, breathwork, meditation, and wellness from yoga teacher Ali.',
   },
-  canonical: 'https://aliyoga.com/blog',
 };
 
 // Breadcrumb schema for JSON-LD

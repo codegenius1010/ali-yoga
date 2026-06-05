@@ -40,7 +40,6 @@ export const metadata: Metadata = {
     description:
       'Book a private yoga coaching session, yoga for golfers training, retreat inquiry, or online course consultation.',
   },
-  canonical: 'https://aliyoga.com/book',
 };
 
 export default function BookPage() {

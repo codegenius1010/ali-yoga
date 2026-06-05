@@ -50,7 +50,6 @@ export const metadata: Metadata = {
     description:
       'Golf-specific yoga coaching to improve your mobility, flexibility, rotation, balance, and mental focus.',
   },
-  canonical: 'https://aliyoga.com/yoga-for-golfers',
 };
 
 // Service schema for JSON-LD

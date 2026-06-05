@@ -56,7 +56,6 @@ export async function generateMetadata({ params }: { params: { slug: string } })
       publishedTime: post.publishedAt,
       authors: [post.author],
     },
-    canonical: `https://aliyoga.com/blog/${post.slug}`,
   };
 }
 

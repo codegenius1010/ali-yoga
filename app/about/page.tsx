@@ -43,7 +43,6 @@ export const metadata: Metadata = {
     description:
       'Meet Ali, a yoga teacher trained in Rishikesh with a unique blend of athletic excellence and spiritual practice.',
   },
-  canonical: 'https://aliyoga.com/about',
 };
 
 // Person schema for JSON-LD

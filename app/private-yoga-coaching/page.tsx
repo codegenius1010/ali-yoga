@@ -48,7 +48,6 @@ export const metadata: Metadata = {
     description:
       'One-on-one yoga coaching designed around your body, breath, and goals. Personalized, premium, transformational.',
   },
-  canonical: 'https://aliyoga.com/private-yoga-coaching',
 };
 
 // Service schema for JSON-LD

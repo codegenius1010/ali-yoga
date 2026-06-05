@@ -43,7 +43,6 @@ export const metadata: Metadata = {
     description:
       'Read testimonials from students who transformed their practice with private yoga coaching, golf-focused training, retreats, and online courses.',
   },
-  canonical: 'https://aliyoga.com/testimonials',
 };
 
 // Breadcrumb schema
