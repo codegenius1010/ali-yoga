@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { ReactNode } from 'react';
 import clsx from 'clsx';
 import { Container } from '../layout/Container';
@@ -55,7 +56,15 @@ export function Hero({
 
         {(primaryCta || secondaryCta) && (
           <div className="flex gap-4 justify-center flex-wrap">
-            {primaryCta && (
+            {primaryCta && primaryCta.href && (
+              <Link
+                href={primaryCta.href}
+                className="btn btn-primary btn-large"
+              >
+                {primaryCta.label}
+              </Link>
+            )}
+            {primaryCta && !primaryCta.href && (
               <button
                 className="btn btn-primary btn-large"
                 onClick={primaryCta.onClick}
@@ -63,7 +72,15 @@ export function Hero({
                 {primaryCta.label}
               </button>
             )}
-            {secondaryCta && (
+            {secondaryCta && secondaryCta.href && (
+              <Link
+                href={secondaryCta.href}
+                className="btn btn-outline btn-large"
+              >
+                {secondaryCta.label}
+              </Link>
+            )}
+            {secondaryCta && !secondaryCta.href && (
               <button
                 className="btn btn-outline btn-large"
                 onClick={secondaryCta.onClick}
