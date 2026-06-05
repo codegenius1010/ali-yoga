@@ -52,10 +52,6 @@ export async function generateMetadata({ params }: { params: { slug: string } })
       description: post.seoDescription,
       images: [post.image],
     },
-    article: {
-      publishedTime: post.publishedAt,
-      authors: [post.author],
-    },
   };
 }
 
