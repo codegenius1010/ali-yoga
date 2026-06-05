@@ -194,6 +194,7 @@ export default function YogaForGolfersPage() {
         <Hero
           headline="Yoga for Golfers Who Want More Mobility, Balance & Focus"
           subheadline="A golf-focused yoga method designed to improve body awareness, flexibility, rotation, breathing, and mental presence on and off the course."
+          backgroundImage="/images/home-hero-yoga-golf.png"
           primaryCta={{
             label: 'Start Golf Yoga Coaching',
             href: '/book',
