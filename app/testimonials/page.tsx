@@ -173,9 +173,11 @@ export default function TestimonialsPage() {
             <Section size="md" background="cream">
               <CTASection
                 headline="Improve Your Golf Game"
-                subheadline="Join golfers who've transformed their swing with yoga-focused coaching."
-                primaryCTA={{ label: 'Start Golf Yoga Coaching', href: '/book' }}
-                secondaryCTA={{ label: 'View Golf Yoga Page', href: '/yoga-for-golfers' }}
+                description="Join golfers who've transformed their swing with yoga-focused coaching."
+                primaryCtaLabel="Start Golf Yoga Coaching"
+                primaryCtaHref="/book"
+                secondaryCtaLabel="View Golf Yoga Page"
+                secondaryCtaHref="/yoga-for-golfers"
               />
             </Section>
           </>
@@ -204,9 +206,11 @@ export default function TestimonialsPage() {
             <Section size="md" background="cream">
               <CTASection
                 headline="Experience a Transformative Retreat"
-                subheadline="Join our next yoga retreat and return home renewed."
-                primaryCTA={{ label: 'Join Retreat Waitlist', href: '/retreats' }}
-                secondaryCTA={{ label: 'Learn More', href: '/retreats' }}
+                description="Join our next yoga retreat and return home renewed."
+                primaryCtaLabel="Join Retreat Waitlist"
+                primaryCtaHref="/retreats"
+                secondaryCtaLabel="Learn More"
+                secondaryCtaHref="/retreats"
               />
             </Section>
           </>
@@ -235,9 +239,11 @@ export default function TestimonialsPage() {
             <Section size="md" background="cream">
               <CTASection
                 headline="Learn Yoga On Your Schedule"
-                subheadline="Explore our online courses designed for flexibility and depth."
-                primaryCTA={{ label: 'Browse Courses', href: '/online-courses' }}
-                secondaryCTA={{ label: 'View Course Details', href: '/online-courses' }}
+                description="Explore our online courses designed for flexibility and depth."
+                primaryCtaLabel="Browse Courses"
+                primaryCtaHref="/online-courses"
+                secondaryCtaLabel="View Course Details"
+                secondaryCtaHref="/online-courses"
               />
             </Section>
           </>
