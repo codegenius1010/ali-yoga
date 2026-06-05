@@ -10,6 +10,9 @@ import { BlogCard } from '@components/sections/BlogCard';
 import { JsonLd } from '@components/sections/JsonLd';
 import { blogPosts } from '@content/blog';
 
+// Use ISR to avoid build timeout - regenerate every 60 seconds
+export const revalidate = 60;
+
 // Generate static params for all blog posts
 export async function generateStaticParams() {
   return blogPosts.map((post) => ({
