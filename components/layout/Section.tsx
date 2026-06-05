@@ -7,6 +7,7 @@ interface SectionProps {
   className?: string;
   size?: 'sm' | 'md' | 'lg';
   background?: 'cream' | 'white' | 'olive' | 'none';
+  id?: string;
 }
 
 export function Section({
@@ -14,6 +15,7 @@ export function Section({
   className,
   size = 'md',
   background = 'white',
+  id,
 }: SectionProps) {
   const sizeClasses = {
     sm: 'py-8 sm:py-12',
@@ -29,7 +31,7 @@ export function Section({
   };
 
   return (
-    <section className={clsx(sizeClasses[size], bgClasses[background], className)}>
+    <section id={id} className={clsx(sizeClasses[size], bgClasses[background], className)}>
       <Container>
         {children}
       </Container>
