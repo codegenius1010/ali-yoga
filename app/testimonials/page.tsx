@@ -140,9 +140,11 @@ export default function TestimonialsPage() {
             <Section size="md" background="cream">
               <CTASection
                 headline="Ready to Transform Your Practice?"
-                subheadline="Start with private yoga coaching tailored to your body and goals."
-                primaryCTA={{ label: 'Book a Private Session', href: '/book' }}
-                secondaryCTA={{ label: 'Learn More', href: '/private-yoga-coaching' }}
+                description="Start with private yoga coaching tailored to your body and goals."
+                primaryCtaLabel="Book a Private Session"
+                primaryCtaHref="/book"
+                secondaryCtaLabel="Learn More"
+                secondaryCtaHref="/private-yoga-coaching"
               />
             </Section>
           </>
