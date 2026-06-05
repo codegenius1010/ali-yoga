@@ -214,7 +214,7 @@ export default function OnlineCoursesPage() {
                       What You'll Learn
                     </p>
                     <ul className="space-y-2">
-                      {golfCourse.highlights.slice(0, 5).map((highlight, index) => (
+                      {(golfCourse.highlights ?? []).slice(0, 5).map((highlight, index) => (
                         <li key={index} className="flex gap-2 text-deep-olive">
                           <span className="text-golden-sun flex-shrink-0">✓</span>
                           <span>{highlight}</span>
