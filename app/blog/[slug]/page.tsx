@@ -8,6 +8,7 @@ import { Container } from '@components/layout/Container';
 import { Breadcrumbs } from '@components/sections/Breadcrumbs';
 import { BlogCard } from '@components/sections/BlogCard';
 import { JsonLd } from '@components/sections/JsonLd';
+import { FeaturedImage } from '@components/sections/FeaturedImage';
 import { blogPosts } from '@content/blog';
 
 // Use ISR to avoid build timeout - regenerate every 60 seconds
@@ -137,14 +138,10 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
         {/* Featured Image */}
         <Section size="lg" background="white">
           <div className="h-96 bg-gradient-to-br from-warm-sand to-soft-clay rounded-2xl flex items-center justify-center overflow-hidden">
-            <img
+            <FeaturedImage
               src={post.image}
               alt={post.title}
               className="w-full h-full object-cover"
-              onError={(e) => {
-                e.currentTarget.src =
-                  'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630"%3E%3Crect fill="%23E8D8C3" width="1200" height="630"/%3E%3C/svg%3E';
-              }}
             />
           </div>
         </Section>
