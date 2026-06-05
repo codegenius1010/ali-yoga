@@ -75,7 +75,7 @@ export interface BlogPostingSchema {
   headline: string;
   description: string;
   image?: string;
-  datePublished: string;
+  datePublished?: string;
   dateModified?: string;
   author?: {
     '@type': string;
